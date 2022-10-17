@@ -1,0 +1,30 @@
+#container{
+    background-color: antiquewhite;
+}
+
+
+#header {
+    background-color:aquamarine;
+    color:rgb(5, 87, 79);
+    text-align: center;
+    padding:10px;
+}
+
+
+#section1{
+ height:500px;
+ width:45% ;
+    background-color: rgb(187, 240, 222);
+    padding: 15px;
+    text-align: center;
+    display:inline-block ;
+}
+
+#section2{
+    height:500px ;
+    width:45%;
+    background-color: rgb(157, 200, 200);
+    padding:15px;
+    text-align: center;
+    display: inline-block;
+}
