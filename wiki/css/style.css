@@ -2,16 +2,51 @@ li{
     list-style:none;
 
 }
+
 a{
     text-decoration:none;
 }
 
-a:hover{
+#a:hover
+{
     text-decoration: underline;
 }
 
-a nav{
-    float:left;
+
+#sidebar {
+padding: left 200px;
+width: 150px;
+border: 1px solid color rgb(26, 26, 26);
 }
-#info:{
+  
+#contents{
+    border: 1px solid color rgb(26, 26, 26);
+    background-color: rgb(194, 193, 193);
+    width: 200px;
+    padding: 15px;
+    margin-left:  50px;
+}
     
+#sidebar {
+    float: right;
+
+}
+
+body {
+    background-color: #f6f6f6;
+}
+.main{
+    background-color: #fff;
+}
+
+#topic {
+    width: 90%;
+    float: left;
+    
+}
+
+#maininfo
+{
+    float: inline-end;
+
+}
