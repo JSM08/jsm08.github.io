@@ -1,0 +1,33 @@
+.line1{
+    background-color: rgb(180, 205, 205);
+    text-align: center;
+   height: 40px;
+   width: 100%;
+   position: relative;
+}
+
+Li{
+    padding:10px;
+    list-style: none;
+
+}
+
+a{text-decoration: none;
+}
+
+
+.line2{
+    background-color: rgb(186, 177, 222);
+    text-align: center;height: 40px;width: 100%;
+    margin: 20px;
+    position:fixed;
+}
+
+.line3{
+    background-color: rgb(196, 149, 176);
+    text-align: center;height: 40px;width: 100%;
+    margin: 20px;
+    bottom: 150px;
+    position: absolute;
+}
+
