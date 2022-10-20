@@ -1,0 +1,29 @@
+ul{
+    display: flex;
+    padding: 10px;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+li{
+    padding: 10px;
+    list-style: none;
+}
+
+#links {
+    display: flex;
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgb(122, 129, 129);
+    padding: 10px;
+}
+
+nav{
+    background-color: rgb(193, 155, 188);
+    padding: 10px;
+}
