@@ -1,0 +1,73 @@
+body{
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+nav{
+background-color: rgb(224, 199, 161);
+font-family:Georgia, 'Times New Roman', Times, serif;
+border-radius: 10px;
+width: 100%;
+margin:10px;
+    
+}
+
+Li{
+    list-style: none;
+padding: 12px;
+letter-spacing: 1px;
+}
+
+
+#main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+background-color: rgb(247, 233, 213);
+padding: 7px;
+border-radius: 7px;
+color:beige;
+cursor: pointer;
+
+}
+
+a:link{
+    color: rgb(138, 96, 6);
+    font-weight: 600;
+}
+
+h1{
+    text-align: center;
+    color: rgb(240, 11, 187);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+;
+}
+
+
+.dropdown-menu{
+    display:flex ;
+    flex-direction: column;
+    width: 20%;
+    margin: 10px;
+    border: 2px solid pink;
+    position: absolute;
+    opacity:0;
+    transition-duration: 1s;
+    
+    
+}
+
+.dropdown:hover .dropdown-menu{
+    opacity: 1;
+
+}
