@@ -1,8 +1,5 @@
-
-
 body{
     background-color: rgba(245, 245, 220, 0.161);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -94,10 +91,24 @@ h1{
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
+    font-style: italic;
+    
 }
 
-.container3{
+.container1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
     display:flex;
   justify-self:center;
   align-items: center;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    margin: 20px;
+    border: 10px green;
+    padding: 5px;
 }
