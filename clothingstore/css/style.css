@@ -113,14 +113,22 @@ h1{
 .container3{
     display: flex;
     justify-content: right;
-    align-items:flex-end
-    font-family: 'Times New Roman', Times, serif;
+    align-items:flex-end;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic;
     font-weight: 300;
-    margin: 10px;
+    margin: 20px;
 
 }
 
 
+
+
+.container5 {
+    font-style: italic;
+    font-size: x-small;
+    margin: 20px;
+}
 .container6{
     display: flex;
     justify-items:center;
