@@ -96,7 +96,7 @@ h1{
     padding: 20px;
 }
 
-.container2{
+.container2 {
     display: flex; 
   justify-self:right;
   align-items:flex-end;
@@ -104,13 +104,13 @@ h1{
 }
 
 
-.container4{
+.container4 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-.container3{
+.container3 {
     display: flex;
     justify-content: right;
     align-items:flex-end;
@@ -129,9 +129,15 @@ font-style: italic;
     font-size: x-small;
     margin: 20px;
 }
-.container6{
-    display: flex;
+.container6 {
+display: flex;
     justify-items:center;
     align-items: center;
-    margin: 10px;
+    
+}
+
+.container7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
