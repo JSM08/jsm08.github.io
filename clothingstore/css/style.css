@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(245, 245, 220, 0.161);
+    background-color: rgba(247, 239, 244, 0.161);
 }
 
 
@@ -9,7 +9,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
 border-radius: 10px;
 width: 100%;
 margin: 25px;
-    
+
 }
 
 Li{
@@ -36,7 +36,8 @@ background-color: rgb(177, 206, 209);
 padding: 5px;
 border-radius: 5px;
 color:rgb(127, 154, 135);
-cursor:grab
+cursor:grab;
+
 
 }
 
@@ -48,17 +49,18 @@ a:link{
 h1{
     text-align: center;
     color: rgb(98, 202, 46);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-;
+    font-family:Arial, Helvetica, sans-serif;
+    font: size 800px;
+
 }
 
 
 .dropdown-menu{
     display:flex ;
     flex-direction: column;
-    width: 15%;
-    margin: 20px;
-    border: 2px solid rgb(103, 149, 30);
+    width: 20%;
+    margin: 30px;
+    border: 2px solid  rgb(233, 112, 162);
     position: absolute;
     opacity:0;
     transition-duration: 0.5s;
@@ -92,7 +94,7 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     font-style: italic;
-    margin: 10px;
+    margin: 20px;
     padding: 20px;
 }
 
@@ -127,7 +129,7 @@ font-style: italic;
 
 .container5 {
     font-style: italic;
-    font-size: x-small;
+    font-size:small;
     margin: 20px;
 }
 
@@ -156,25 +158,20 @@ display: flex;
 
 }
 
-p {
-    animation-duration: 3s;
-    animation-name: slidein;
-  }
-  
-  @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    75% {
-      font-size: 300%;
-      margin-left: 25%;
-      width: 150%;
-    }
-  
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
+h2{
+    color: rgb(157, 107, 150);
+    font-size:large;
+    margin: 30px;
+}
+
+h3{
+    color: rgb(157, 107, 150);
+    font-size:large;
+    margin: 30px; 
+}
+
+h4{
+    color: rgb(157, 107, 150);
+    font-size:large;
+    margin: 30px;
+}
