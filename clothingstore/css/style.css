@@ -147,6 +147,34 @@ display: flex;
 
 
 .button{
-    color:purple;
+
+    background-color: rgb(233, 112, 162);
+    border: none;
+    padding: 5px;
+    font-size: larger;
+
 
 }
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
