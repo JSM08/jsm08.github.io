@@ -1,3 +1,5 @@
+
+
 body{
     background-color: rgba(245, 245, 220, 0.161);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -9,7 +11,7 @@ background-color: rgb(210, 224, 161);
 font-family:Georgia, 'Times New Roman', Times, serif;
 border-radius: 10px;
 width: 100%;
-margin: 25px;px;
+margin: 25px;
     
 }
 
@@ -85,3 +87,17 @@ h1{
 } */
 
 
+#parag1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.container3{
+    display:flex;
+  justify-self:center;
+  align-items: center;
+}
