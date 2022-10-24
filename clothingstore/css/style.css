@@ -87,8 +87,8 @@ h1{
 .container1
 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:right;
+    align-items:flex-end;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     font-style: italic;
@@ -98,8 +98,8 @@ h1{
 
 .container2 {
     display: flex; 
-  justify-self:right;
-  align-items:flex-end;
+  justify-content: center;
+  align-items:center;
   
 }
 
@@ -108,6 +108,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    size:40%;
 }
 
 .container3 {
@@ -129,9 +130,11 @@ font-style: italic;
     font-size: x-small;
     margin: 20px;
 }
+
+
 .container6 {
 display: flex;
-    justify-items:center;
+   justify-content: center;
     align-items: center;
     
 }
