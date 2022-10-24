@@ -41,13 +41,13 @@ cursor:grab
 }
 
 a:link{
-    color: rgb(37, 37, 35);
+    color: rgb(72, 72, 53);
     font-weight: 500;
 }
 
 h1{
     text-align: center;
-    color: rgb(78, 180, 27);
+    color: rgb(98, 202, 46);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 ;
 }
@@ -58,7 +58,7 @@ h1{
     flex-direction: column;
     width: 15%;
     margin: 20px;
-    border: 2px solid rgb(160, 206, 85);
+    border: 2px solid rgb(103, 149, 30);
     position: absolute;
     opacity:0;
     transition-duration: 0.5s;
@@ -92,30 +92,38 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: large;
     font-style: italic;
-    
+    margin: 10px;
+    padding: 20px;
 }
 
 .container2{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 100;
-    display:flex;
-  justify-self:center;
-  align-items: center;
-}
-
-
-.container3{
-    display: flex;
-    justify-content: right;
-    align-items: flex-end;
-    margin: 20px;
-    border: 10px green;
-    padding: 5px;
+    display: flex; 
+  justify-self:right;
+  align-items:flex-end;
+  
 }
 
 
 .container4{
     display: flex;
-    justify-items: flex-end;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.container3{
+    display: flex;
+    justify-content: right;
+    align-items:flex-end
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin: 10px;
+
+}
+
+
+.container6{
+    display: flex;
+    justify-items:center;
     align-items: center;
+    margin: 10px;
 }
