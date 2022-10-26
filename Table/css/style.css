@@ -1,0 +1,53 @@
+
+.content-table{ 
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin: 20px 0 ;
+    font-size: 0.5 em ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+min-width:500px ;
+box-shadow: 0 0 30px rgb(231, 234, 242);
+
+}
+
+.content-table td{
+    text-align:left;
+padding: 10px  12px;
+}
+
+
+.content-table th {
+    background-color: rgb(7, 87, 89);
+    color: rgb(190, 195, 195);
+    text-align:left;
+    padding: 10px 12px;
+    }
+
+
+tr:nth-child(even)
+
+{background-color: rgb(231, 234, 242);
+    
+}
+
+
+ 
+
+.content-table tr 
+{
+    
+    padding: 10px 12px;
+}
+
+
+.content-table tbody tr {
+    border-bottom: 1px solid rgb(230, 228, 228);
+   
+
+}
+
+.content-table tbody tr.active-row{
+    font-weight: bold;
+    color:rgb(9, 118, 128);
+
+}
