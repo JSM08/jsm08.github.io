@@ -1,12 +1,13 @@
 
 .content-table{ 
-    border-radius: 10px;
+    border-radius:7px 7px 0 0 ;
     border-collapse: collapse;
     margin: 20px 0 ;
     font-size: 0.5 em ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 min-width:500px ;
-box-shadow: 0 0 30px rgb(231, 234, 242);
+box-shadow: 0 0 30px rgb(210, 212, 220);
+overflow: hidden;
 
 }
 
@@ -42,12 +43,12 @@ tr:nth-child(even)
 
 .content-table tbody tr {
     border-bottom: 1px solid rgb(230, 228, 228);
-   
+    
 
 }
 
 .content-table tbody tr.active-row{
     font-weight: bold;
     color:rgb(9, 118, 128);
-
+    
 }
