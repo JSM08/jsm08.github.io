@@ -1,8 +1,21 @@
-table th, td{
 
- border: 1px solid rgb(84, 80, 80);
- border-collapse: collapse;
+table{ border-collapse: collapse;
+width: 100%;
 }
-th,td {
-    padding: 15px;
+
+th, td{
+text-align: left;
+padding: 8px ;
+ border: 2px solid rgb(84, 80, 80);
 }
+th {
+    background-color: rgb(219, 196, 212);
+    text-align:leftr;
+    padding: 10px;
+}
+th{
+    color: rgb(226, 39, 201);
+}
+
+tr:nth-child(even)
+{background-color: rgb(191, 197, 215);}
