@@ -1,0 +1,40 @@
+input[ type=submit]{
+    border:none;
+    background-color: rgb(14, 211, 129);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgb(229, 242, 226);
+}
+
+input, textarea {
+
+    display;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(203, 202, 202);
+}
+
+
+body{
+    background-color: rgb(255, 253, 251);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type=submit]:hover{
+    background-color:lightgrey
+}
+
+
+.radio{
+    display: inline-flex;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

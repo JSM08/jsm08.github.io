@@ -1,0 +1,30 @@
+input[ type=submit]{
+    border:none;
+    background-color: rgb(240, 77, 142);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+input, textarea {
+
+    display: block;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(241, 198, 222);
+    border: 3px solid palevioletred;
+}
+
+body{
+    background-color: rgb(225, 143, 71);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+fieldset{
+    border: 2px rgb(224, 158, 213) solid;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(242, 156, 9);
+}
