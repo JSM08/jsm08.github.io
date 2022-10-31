@@ -28,3 +28,13 @@ fieldset{
 input[type=submit]:hover{
     background-color: rgb(242, 156, 9);
 }
+
+
+input[type=text]:valid, input[type=email]:valid{
+    border: solid 3px rgb(111, 229, 111);
+}
+
+input[type=text]:invalid, input[type=email]:invalid{
+    border:solid 3px rgb(107, 66, 178);
+
+}
