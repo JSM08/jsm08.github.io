@@ -10,35 +10,42 @@
 </head>
 <body>
 
-  <input type="text" name="firstName" id="firstName" placeholder="First Name">
+  <!-- Contact us header -->
+  <div id="header">
+    <h1>Contact Us</h1>
+    <p>Got a question? We'd love to hear from you.
+      <br>Send us a message and we'll get back tou as soon as possible.
+    </p>
+  </div>
 
-  <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+  <!-- Form--> 
+  <div id=content>
+    <form>
+      <br>
+      <label for="help">What can we help you with?</label>
+      <br>
+      <select name="help" required>
+        <option name="selection" value="" disabled selected hidden>Select</option>
+        <option name="customer" value="">Customer Service</option>
+        <option name="customer" value="">Customer Service</option>
+        <option name="customer" value="">Customer Service</option>
+      </select>
+      <br>
+      <label for="name">Name</label>
+      <input type="text" name="name " id="fullName" required minlength="1" maxlength="30">
+      <br>
+      <label for="email">Email</label>
+      <input type="email" name="email " id="email" required minlength="1" maxlength="30">
+<br>
+<labe for="message">Message</labe>
+<br>
+<textarea name="messageArea" cols="50" rows="12" id="writemessage"required minlength="1" maxlength="30"></textarea>
+  <br>
+  <button value="submit">Send</button> 
 
 
-  <input type="email" name="email" id="email" placeholder="Email">
-
-  <input type="password" name="password" id="Password">
-
-  <input type="checkbox">
-
-  <input type="file">
-
-<input type="color" name="pickcolor" id="pickcolor">
-
-<input type="button" value="Submit">
-
-<button>Submit</button>
-
-<input type="date" name="datePicker" id="datePicker">
-
-<input type="radio"  name=" radio"  id="radio">
-
-<select>
-  <option value=" october"> October</option>
-  <option value=" november">November </option>
-  <option value=" january"> January</option>
-  <option value=" february"> February</option>
-  <option value=" march"> March</option>
+</form>
+  </div>
 </select>
 
 </body>

@@ -1,0 +1,42 @@
+input[ type=submit]{
+    border:none;
+    background-color: rgb(188, 189, 209);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+input, textarea {
+
+    display: block;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(220, 219, 219);
+    border: 3px solid rgb(161, 160, 163);
+}
+
+body{
+    background-color: rgb(239, 239, 239);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+fieldset{
+    border: 2px rgb(195, 195, 196) solid;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(210, 203, 203);
+}
+
+
+input[type=text]:valid, input[type=email]:valid{
+    border: solid 3px rgb(6, 124, 6);
+}
+
+input[type=text]:invalid, input[type=email]:invalid{
+    border:solid 3px rgb(224, 11, 11);
+
+}
+
+
