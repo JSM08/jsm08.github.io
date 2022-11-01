@@ -1,6 +1,6 @@
 input[ type=submit]{
     border:none;
-    background-color: rgb(65, 75, 211);
+    background-color: rgb(70, 100, 232);
     padding: 15px;
     border-radius: 5px;
     font-size: 20px;
@@ -52,8 +52,16 @@ input[type=text]:invalid, input[type=email]:invalid{
 }
 
 
-.info{
-    display:block;
+
+
+.container-item{
+    display: flex;
     justify-content: center;
-    align-items: center;
+align-items: center;
 }
+
+
+select{
+    width: 100%;
+}
+

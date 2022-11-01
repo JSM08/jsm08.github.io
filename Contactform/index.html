@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/style.css">
 
-  <title>Contact form</title>
+  <title>Contact Form</title>
 </head>
 <body>
 <div class="container">
@@ -14,37 +14,36 @@
 
 <div class="container1">
 <h5>Got a question? We'd love to hear from you. Send us a message and
-  we'll respond as soon as possible.
-</h5></div>
+  we'll respond as soon as possible.</h5></div>
 
   
-    <!-- Personla info -->
+    <div class="container-item">
 
     <form action="https://getform.io/f/11a6de24-1132-41af-bced-dd02fa09573f" method="POST">
-      <br>
+    
     <fieldset>
         <label for="dropdown">What can we help with?</label>
         <select>
-          <option id="option A">Select what we can help with</option>
-<option value="option a"> Call Customer Service</option>
-<option value="option a">Chat Now</option>
+          <option id="option">Select what we can help with</option>
+<option value="option"> Call Customer Service</option>
+<option value="option">Chat Now</option>
         </select>
       </fieldset>
     
-
+<br>
   <div class="info">  
     <fieldset>
-<label for="Name">Name</label>
-<input type="text" name="Name" id="Name" placeholder="Name" 
+<label for="firstName">First Name</label>
+<input type="text" name="firstName" id="firstName" placeholder="First Name" 
 required minlenght="2" maxlength="40">
 
-<label for="lastName"> Last Name</label>
+<label for="lastName">Last Name</label>
 <input type="text" name="lastName" id="lastName" placeholder="Last Name" 
 required minlength="2" maxlength="40">
 
 
-<label for="lastName">Email</label>
-<input type="email" name="email" id="eMail" placeholder="Email" 
+<label for="email">Email</label>
+<input type="text" name="email" id="email" placeholder="Email" 
 required minlength="2" maxlength="40">
 </fieldset>
 
@@ -52,14 +51,17 @@ required minlength="2" maxlength="40">
 
 <br>
 <fieldset>
-  <legend>Message</legend>
-  <textarea name="info" id="info" cols="50" rows="20" placeholder="Type here..." 
-  required minlength="2" maxlength="40"></textarea>
+  <br>
+  <label for="message">Message</label>
+  <br>
+  
+  <textarea name="messageArea" placeholder="Type here..." cols="50" rows="12" id="writemessage"required minlength="1" maxlength="30"></textarea>
+  <input type="submit" value="Send">
 </fieldset>
-<br>
-    <input type="submit" value="Send">
-  </div>
+   
+  
+</div>
   </form>
-
+</div>
 </body>
 </html>
