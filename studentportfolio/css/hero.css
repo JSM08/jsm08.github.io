@@ -16,6 +16,23 @@
     text-align: center;
 }
 
-.parallax {
-
+.grid-container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+   margin: 10px;
 }
+
+.grid-container1{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+   margin: 10px;}
+
+   .grid-container2{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+   margin: 10px;}
+
+   @media (min-width: 576px) { ... }
