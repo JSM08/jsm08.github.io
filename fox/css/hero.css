@@ -1,6 +1,6 @@
 .site-hero{
     height: 80vh;
-    background-image: url("../assets/branding/wood_bkgrnd.jpg");
+    background-image: url("../assets/pexels-photo-4601721.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -12,7 +12,7 @@
 .site-text{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
-    color: rgb(63, 149, 149);
+    color: #e1a177 ;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(145, 28, 43);
+    background-color: rgb(165, 158, 159);
     width: 100%;
     height: 20%;
 }
@@ -39,7 +39,7 @@
    h4{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
-    color: rgb(112, 4, 4);
+    color: rgb(231, 230, 230);
    }
 
    .collapseButton{
