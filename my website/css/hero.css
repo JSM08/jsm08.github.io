@@ -12,7 +12,7 @@
 
 .site-text{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-color: #e1a177 ;
+color: #e692bd ;
     text-align: center;
     font-size: 100%;
 }
@@ -22,7 +22,7 @@ color: #e1a177 ;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(140, 140, 140);
+    background-color: rgb(100, 90, 115);
     width: 100%;
     height: 20%;
 }
@@ -39,14 +39,14 @@ color: #e1a177 ;
    }
 h5{
     font-size: medium;
-    color: rgb(79, 78, 76);
+    color: rgb(186, 36, 136);
     font-style: oblique;
 }
 
    h4{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
-    color:#f3ebe6;
+    color:#db5091;
     font: 20%;
    }
 

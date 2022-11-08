@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@1,100&display=swap');
 
 
 
@@ -12,10 +11,10 @@ body, main, footer, nav, header {
   font-family: Arial, Helvetica, sans-serif;
 }
 a {
-  color: #e1a177;
+  color: #b78fad;
 }
 .btn {
-  background-color: #e1a177;
+  background-color: #9f8499;
   border:2px solid hsl(0, 0%, 59%);
   border-radius: 0px;
 }
@@ -24,25 +23,25 @@ a {
 
 body {
   margin:0;
-  color:#e1a177;
-  border-color: #e1a177;
+  color:#565456;
+  border-color: #e41494;
 }
 
 header {
-  border-bottom: 2px solid #e1a177;
+  border-bottom: 2px solid #dca9d5;
   display:flex;
   align-items: center;
   justify-content: space-between;
   padding:50px;
   background-color:#ffffff;
-  color:#e1a177;
+  color:#9fc6e9;
 }
 .header-top{
   width:15%;
 }
 nav {
-  border-bottom: 3px solid #e1a177;
-  background-color:#f4f4f4;
+  border-bottom: 3px solid #861bdd;
+  background-color:#d9cded;
   position:sticky;
   top:0px;
   box-shadow: 0px 3px 3px 0px rgba(175, 175, 175, 0.3);
@@ -62,7 +61,7 @@ nav li {
   list-style-type: none;
 }
 nav a {
-  color:#e1a177;
+  color:#d024b6;
   text-decoration: none;
   padding:10px 20px;
   padding-left:2.5px;
@@ -73,7 +72,7 @@ nav a::before {
   padding-right:8px;
 }
 nav a:hover {
-  background-color:#e1a177 ;
+  background-color:#db1c95 ;
   color:#7d8081;
 }
 .nav-contact {
@@ -84,7 +83,7 @@ nav a:hover {
   width:34%;
 }
 .nav-contact:hover {
-  color:#e1a177;
+  color:#d0bad0;
 }
 .nav-contact ion-icon{
   margin-right:12px;
@@ -124,7 +123,7 @@ main {
 /* contents: */
 
 .content {
-  background-color: #e1a177;
+  background-color: #eeaae7;
   border:2px solid #585858;
   padding:15px;
   color:#484948;
