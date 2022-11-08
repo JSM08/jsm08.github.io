@@ -220,3 +220,10 @@ footer h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
+
+.container1{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+ }
+

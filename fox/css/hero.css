@@ -57,4 +57,10 @@ h5{
    
    }
 
+   .container1{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+   }
+
    
