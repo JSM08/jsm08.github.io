@@ -27,7 +27,7 @@ function convertToDaysLeft(milliseconds) {
   }
 
   // Initialize Deadline Varibale
-  let deadLine = new Date ("April 1, 2023 15:00:00");
+  let deadline = new Date ("April 1, 2023 15:00:00");
 
   // Initialize the variable for the element used for the countdown
   let countdown = document.getElementById("countdown");
@@ -35,12 +35,12 @@ function convertToDaysLeft(milliseconds) {
   countdown.innerHTML = " ";
 
   // function to set countdown
-  function setCoundown(){
+  function setCountdown(){
     // current date
     let now = new Date ();
     let timeLeft = deadline.getTime() - now.getTime();
     // store time converted variables in another variable to use in final display
-    let dayLeft = convertToDaysLeft(timeLeft);
+    let daysLeft = convertToDaysLeft(timeLeft);
     let hoursLeft = convertToHoursLeft(timeLeft);
     let minutesLeft = convertToMinutesLeft(timeLeft);
     let secondsLeft = convertToSecondsLeft(timeLeft);
@@ -49,4 +49,4 @@ function convertToDaysLeft(milliseconds) {
     (daysLeft, hoursLeft, minutesLeft, secondsLeft);
 
   }
-  setInterval(setCountdown)
+  setInterval(setCountdown, 1000)
