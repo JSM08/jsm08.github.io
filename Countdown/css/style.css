@@ -16,3 +16,8 @@ background-color: rgb(150, 49, 150)
     margin:5%;
     background-color: rgb(215, 187, 240);
 }
+
+h1 { color: rgb(213, 171, 216);
+    font-weight: 20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
