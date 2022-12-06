@@ -1,0 +1,23 @@
+
+body{
+    margin: 20px;
+    padding: 10px;
+}
+#hero {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: rgb(150, 49, 150)
+}
+
+#content {
+    margin:5%;
+    background-color: rgb(215, 187, 240);
+}
+
+h1 { color: rgb(213, 171, 216);
+    font-weight: 20%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
