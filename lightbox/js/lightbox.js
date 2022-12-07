@@ -16,66 +16,28 @@ function openLightbox(){
 
 }
 
-let photo = document.getElementById('photo4');
-//when you click image, refernce openlightbox function
-photo.onclick = openLightbox;
+//set single variable to get all images in gallery
+let galleryImages = document.getElementsByClassName("galleryImage");
+//create loop to cycle through images and run onclick event per image
 
-//make function to make closer clickable
+for (let i = 0; i < galleryImages.length; i++) {
+let galleryImage = galleryImages[i];
+galleryImage.onclick = openLightbox;
+}
+
 
 function closeLightbox(){
     lightboxContainer.classList.remove('display');
-    lightbox.src ="";
+    lightbox.src = "";
 }
 
-lightboxCloser.onclick = closeLightbox;
-lightboxBackground.onclick = closeLightbox;
 
+let closers = document.getElementsByClassName('closer');
 
-
-
-let hands = document.getElementById('hands2');
-//when you click image, refernce openlightbox function
-hands.onclick = openLightbox;
-
-//make function to make closer clickable
-
-function closeLightbox(){
-    lightboxContainer.classList.remove('display');
-    lightbox.src ="";
+for (let i = 0; i < closers.length; i++) {
+    let closer = closers [i];
+    closer.onclick = closeLightbox;
 }
+//lightboxCloser.onclick = closeLightbox;
+//lightboxBackground.onclick = closeLightbox;
 
-lightboxCloser.onclick = closeLightbox;
-lightboxBackground.onclick = closeLightbox;
-
-
-
-let art = document.getElementById('art3');
-//when you click image, refernce openlightbox function
-art.onclick = openLightbox;
-
-//make function to make closer clickable
-
-function closeLightbox(){
-    lightboxContainer.classList.remove('display');
-    lightbox.src ="";
-}
-
-lightboxCloser.onclick = closeLightbox;
-lightboxBackground.onclick = closeLightbox;
-
-
-
-
-let me = document.getElementById('me4');
-//when you click image, refernce openlightbox function
-me.onclick = openLightbox;
-
-//make function to make closer clickable
-
-function closeLightbox(){
-    lightboxContainer.classList.remove('display');
-    lightbox.src ="";
-}
-
-lightboxCloser.onclick = closeLightbox;
-lightboxBackground.onclick = closeLightbox;
