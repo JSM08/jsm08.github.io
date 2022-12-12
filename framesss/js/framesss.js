@@ -26,7 +26,6 @@ gsap.from(".chuck" , {
   y: -500,
 });
 
-
 gsap.from(".first",{
   duration: 1.5,
   stragger: 2.5,
