@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(245, 211, 234);
+  color: rgb(135, 12, 61)
+}
+  
+.animation-container {
+  width: 90%;
+  display: flex;
+  margin: 20% auto;
+}
+
+.chucked {
+height: 100px;
+width: 100px;
+background-color: rgb(240, 108, 68);
+margin-top: 100px;
+border-radius: 10%;
+}
+
+.chuck {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(204, 141, 92);
+  margin-top: 100px;
+  border-radius: 10%;
+  }
+
+
+.column {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.text-box {
+  width: 70%;
+}
+
+.text-box h2{
+  font-size: 5rem;
+}
+
+.explore{
+  font-size: 6rem;
+}
+
+.animation-container1 {
+  width: 80%;
+  display: flex;
+  margin: 25% auto;
+  color: rgb(79, 30, 73);
+}
+
+p {
+  font-size: 40px;
+}
+
+.animation-container2 {
+  width: 90%;
+  display: flex;
+  margin: 35% auto;
+  color: rgb(132, 93, 127);
+}
