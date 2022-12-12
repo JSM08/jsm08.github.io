@@ -1,6 +1,6 @@
 //squares animation
 gsap.from(".chucked" , {
-  duration: 7,
+  duration: 6,
   rotation: 720,
   ease: "bounce",
   stagger: 0.5,
@@ -11,8 +11,8 @@ gsap.from(".chucked" , {
 //text animation
 
 gsap.from(".headLine", {
-  duration: 2.5,
-  stagger: 0.5,
+  duration: 1.5,
+  stagger: 2.5,
   opacity:0,
   y: 300,
 })
@@ -28,22 +28,22 @@ gsap.from(".chuck" , {
 
 
 gsap.from(".first",{
-  duration: 4.5,
-  stragger: 9.5,
+  duration: 1.5,
+  stragger: 2.5,
   opacity: 0,
   y:150
 })
 
 gsap.from(".second",{
-  duration: 9.5,
-  stragger: 8.5,
+  duration: 2.5,
+  stragger: 3.5,
   opacity: 0,
   y:150
 })
 
 gsap.from(".third",{
-  duration: 6.5,
-  stragger: 5.5,
+  duration: 3.5,
+  stragger: 2.5,
   opacity: 0,
   y:150
 })
