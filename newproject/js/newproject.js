@@ -52,13 +52,15 @@ bodymovin.loadAnimation({
         );
         
 
+//event listener 
 
-        animationMonster.addEventListener (' mouseleave', function ()
+        animationMonster.addEventListener ('mouseleave', function ()
         {
           monster.playSegments ([99,211], false);
         });
+//event listener 
 
-        animationMonster.addEventListener('mouseenter', function (){
+        animationMonster.addEventListener ('mouseenter', function (){
           monster.playSegments([256, 302], false);
         });
 
