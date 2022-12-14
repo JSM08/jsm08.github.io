@@ -81,6 +81,7 @@ padding: 5px 6px;
 }
 
 .btn {
+    position: absolute;
     display: inline-block;
     background-color: rgb(16, 80, 190);
     color: white;
@@ -94,7 +95,17 @@ padding: 5px 6px;
     letter-spacing: 1px;
     cursor: pointer;
     text-transform: uppercase;
+}
 
+input[type="text"]{
+    border: none;
+    width: 350px;
+    height: 34px;
+    padding: 10 16px;
+    border-radius: 2px;
+    font-size: 14px;
+    
+    
 }
 
 .btn-cta:hover{
@@ -149,3 +160,5 @@ h4{
     text-decoration: underline;
 
 }
+
+
