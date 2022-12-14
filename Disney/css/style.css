@@ -138,7 +138,8 @@ margin-top: 20px;
     gap: 40px;
     align-items: center;
     padding: 30px 40px;
-    background: rgb(8, 0, 19)
+    background: rgb(8, 0, 19);
+   
 }
 
 h4{
@@ -163,7 +164,7 @@ h4{
 
 
 .footer{
-    background-color: rgb(1, 1, 22);
+    background-color: rgb(0, 0, 15);
     color: white;
     max-width: 110px;
     margin: auto;
@@ -171,10 +172,25 @@ h4{
     display: flex;
     justify-content: center;
     text-transform:uppercase ;
-    font-weight: 300;
+   
 }
 
 
+
+.sub-header1 {
+  
+
+grid-template-columns: 1fr 1fr 1fr;
+align-items:center;
+padding: 10px 10px;
+background-color: rgb(1, 1, 15);
+max-width: 200px;
+margin: auto;
+padding: 40px;
+display: flex;
+justify-content: center;
+text-transform:uppercase ;
+}
 
 
 
